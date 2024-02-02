@@ -1,0 +1,80 @@
+
+body{
+  background-image:url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+}
+
+ body > div{
+  background-color: rgba(0, 0, 0, 0.536);
+  margin:auto;
+  width: 63%;
+  padding: 5%;
+  margin-top: 2%;
+  box-sizing: border-box;
+  border-radius: 15px;
+} 
+
+
+header > img{
+  display: block;
+  width: 25%;
+  margin: auto;
+}
+
+h1{
+  color: greenyellow;
+  text-align: center;
+  margin: 5px;
+}
+
+nav{
+  background-color: greenyellow;
+  text-align: center;
+  padding: 5px;
+}
+
+main{
+  color:#ffffff;
+}
+
+h3{
+  margin: 0px;
+}
+
+main > div{
+  margin: 20px 20px 20px 0px;
+
+}
+
+main div:not([class]){
+font-size: 12px;
+}
+
+.monopattino1 :last-child{
+  width: 40%;
+  background-color: orange;
+  border-radius: 5px;
+  margin: 0;
+  height: 25px;
+}
+
+.monopattino2 :last-child{
+  width: 60%;
+  background-color: greenyellow;
+  border-radius: 5px;
+  margin: 0;
+  height: 25px;
+}
+
+.monopattino3 :last-child{
+  width: 20%;
+  background-color: red;
+  border-radius: 5px;
+  margin: 0;
+  height: 25px;
+}
+
+
+
